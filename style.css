@@ -1,0 +1,171 @@
+.navbar {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(135, 132, 132);
+    font-weight: bold;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.nav-item:hover .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.nav-link-green {
+    color: green !important;
+}
+
+.navbar-nav .nav-link.text-success {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/*.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}*/
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Imagenes/ba1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.background h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.btn-outline-light {
+    border-color: white;
+    color: white;
+    margin-right: 1.5rem;
+}
+
+.col .btn-success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 201, 62);
+    border-color: rgb(40, 167, 69);
+}
+
+.container .col .charla-ignite {
+    text-decoration: underline dotted;
+}
+
+.col .left-align {
+    text-align: left;
+}
+
+.col .btn {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.row-cols-1>* {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: top;
+}
+
+.card-body {
+    text-align: justify;
+}
+
+.card-title span {
+    margin-right: 5px;
+}
+
+.card-title .fs-6 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+.card-title p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.w-100.bg-dark button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+form .form-control {
+    margin-bottom: 15px;
+}
+
+form .form-text {
+    font-size: 15px;
+}
+
+#tema::placeholder {
+    font-size: 25px;
+}
+
+.text-dark {
+    color: #343a40!important;
+}
+
+.container-level {
+    margin-top: 20px;
+    padding-right: 10px;
+    flex-wrap: wrap; 
+}
+
+.card .blue-border {
+    border: 2px solid blue;
+}
+
+.green-border {
+    border: 2px solid green;
+}
+
+.yellow-border {
+    border: 2px solid yellow;
+}
+
+
+.footer {
+    background-color: rgb(25, 75, 101);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+}

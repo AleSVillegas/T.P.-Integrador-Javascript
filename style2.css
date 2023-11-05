@@ -1,0 +1,71 @@
+
+.navbar {
+    background-color: #343a40;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(135, 132, 132);
+    font-weight: bold;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.nav-item:hover .nav-link {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.nav-link-green {
+    color: green !important;
+}
+
+.navbar-nav .nav-link.text-success {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.container-level {
+    margin-top: 20px;
+    padding-right: 10px;
+    flex-wrap: wrap; 
+}
+
+/*.blue-border {
+    border: 2px solid blue;
+}
+
+.green-border {
+    border: 2px solid green;
+}
+
+.yellow-border {
+    border: 2px solid yellow;
+}
+
+.text-center p {
+    text-align: justify;
+}*/
+
+.venta-title {
+    font-size: 20px; 
+}
+
+.ticket-value {
+    font-size: 40px; 
+}
+
+.footer {
+    background-color: rgb(25, 75, 101);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: white;
+}
